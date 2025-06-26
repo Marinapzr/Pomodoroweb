@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+
+header {
+    background-image: url("imagem/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 85vh;
+
+
+    .botões {
+        display: flex;
+        justify-content: space-between;
+        /* Afasta os botões da imagem */
+        padding: 10px;
+
+
+        button {
+            margin-right: 8px;
+            /* Espaço entre os botões */
+            padding: 6px 12px;
+            background: #e74c3c;
+            /* Cor de fundo dos botões */
+            border: none;
+            color: #D7CBCB;
+            font-size: 18px;
+        }
+
+        img {
+
+            width: 50px;
+            /* Largura da imagem reduzida */
+            height: 40px;
+            /* Altura da imagem reduzida */
+            margin-left: auto;
+            /* Empurra a imagem pro lado direito */
+        }
+    }
+
+    .Titulos {
+        display: flex;
+        flex-direction: column;
+        /* Um abaixo do outro */
+        align-items: center;
+        /* Centraliza na horizontal */
+        padding-top: 300px;
+        /* Empurra tudo para baixo dentro do header */
+        margin-bottom: 20px;
+        /* Espaço depois deles, caso queira */
+
+        height: 80%;
+
+
+        h1 {
+            font-size: 60px;
+            color: #D7CBCB;
+
+        }
+
+        h2 {
+            font-size: 18px;
+            color: red;
+        }
+    }
+}
+
+main {
+    background-color: #272020;
+}
+
+
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Faz a div ocupar toda a largura da tela */
+    height: 20vh;
+    background-color: #D7CBCB;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+  /* Ajuste do bloco main1 */
+  .main1 {
+    padding-left: 10px;
+    text-align: center;
+
+    p {
+      font-size: 14px; /* Fonte menor no parágrafo da main1 */
+    }
+  }
+
+
+
+.tomate {
+    display: flex;
+    align-items: flex-end;
+    /* Faz a imagem ficar na base do parágrafo */
+    padding: 5px;
+    border:solid yellow;
+}
+
+.tomate img {
+    width: 50px;
+    /* Deixa o tomate pequeno */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; // Espaçamento entre os cards
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+
+
+}
+
+.linha2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; // Espaçamento entre os cards
+
+}
+
+.card {
+    background-color: #c0392b; // Vermelho estilo Pomodoro
+    padding: 10px;
+    width: 400px; // Largura fixa para os cards
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #fff;
+        font-size: 19px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+
+footer{
+    background-color: #272020;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    
+}
+
